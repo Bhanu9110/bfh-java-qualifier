@@ -1,0 +1,21 @@
+app:
+  user:
+    name: "Bhanu Prakash"          # TODO: Your full name
+    regNo: "22BCE0848"         # TODO: Your Reg No (last two digits decide the question)
+    email: "prakashreddy2306@gmail.com" # TODO: Your email
+  endpoints:
+    generate: "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA"
+    # The 'webhook' URL to submit to will be returned by the generate endpoint.
+  submission:
+    # If the returned response doesn't include a webhook, fallback to the generic endpoint:
+    fallbackWebhook: "https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA"
+
+logging:
+  level:
+    root: INFO
+    com.example.bfh: DEBUG
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
