@@ -72,4 +72,4 @@ Open `SqlSolver.java` and replace the placeholders in `solve(...)`. Keep it a **
 - Commit your code to a **public GitHub repo**.
 - Attach the **built JAR** from `target/bfh-java-qualifier-1.0.0.jar`.
 - Provide a **raw downloadable** link to the JAR in your repo (e.g., GitHub Releases or direct `/raw/` link).
-- Submit both via the provided Microsoft Forms link.
+- Submit both via the provided Microsoft Forms link."# bfh-java-qualifier" 
